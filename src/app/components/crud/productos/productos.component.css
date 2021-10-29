@@ -5,6 +5,7 @@ table {
 .example-spacer {
   flex: 1 1 auto;
 }
+<<<<<<< HEAD
 
 .card-img-top{
   width: 220px;
@@ -13,3 +14,5 @@ table {
   padding-top: 10px;
   
   }
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05

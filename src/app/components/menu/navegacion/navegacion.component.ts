@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { CartService } from 'src/app/services/cart.service';
 
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
 
 @Component({
   selector: 'app-navegacion',
@@ -9,6 +12,7 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class NavegacionComponent implements OnInit {
 
+<<<<<<< HEAD
   public totalItem : number = 0;
 
   public searchTerm : string = ''; 
@@ -27,4 +31,11 @@ export class NavegacionComponent implements OnInit {
 
   
 
+=======
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
 }

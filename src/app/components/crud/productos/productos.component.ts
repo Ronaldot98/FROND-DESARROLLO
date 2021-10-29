@@ -4,8 +4,11 @@ import {Productos} from 'src/app/models/productos.model';
 import { ProductosService} from 'src/app/services/productos.service';
 import{ FormBuilder, FormGroup } from '@angular/forms';
 
+<<<<<<< HEAD
 import { CartService } from 'src/app/services/cart.service';
 
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
 @Component({
   selector: 'app-productos',
   templateUrl: './productos.component.html',
@@ -13,6 +16,7 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class ProductosComponent implements OnInit {
 
+<<<<<<< HEAD
 
   producto : Productos={
     
@@ -54,6 +58,20 @@ export class ProductosComponent implements OnInit {
 
   getProducto(){
     this.productosService.getAll()
+=======
+  consulta?: Productos[];
+
+  constructor(private formulario:FormBuilder,private ProductosService: ProductosService) { }
+
+  ngOnInit(): void {
+
+   this.getDireccion();
+  }
+
+
+  getDireccion(){
+    this.ProductosService.getAll()
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
     .subscribe(
       data => {
         this.consulta = data;
@@ -64,6 +82,7 @@ export class ProductosComponent implements OnInit {
       });
   }
 
+<<<<<<< HEAD
   addtocart(item: any) {
     this.cartService.addtoCart(item);
   }
@@ -92,4 +111,6 @@ export class ProductosComponent implements OnInit {
          });
    }
 
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
 }
