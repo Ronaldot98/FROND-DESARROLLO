@@ -1,0 +1,40 @@
+<div class="container">
+  <mat-toolbar>
+    <span>Direccion</span>
+
+    <div class="example-spacer"></div>
+      <button type="button"  mat-raised-button  color="primary"  data-bs-toggle="modal"  data-bs-target="#exampleModal" >Agregar</button>
+
+
+  </mat-toolbar>
+    <br>
+
+    <div class="mat-elevation-z3">
+      <table class="table">
+        <thead class="table-block">
+          <tr>
+              <th scope="col" >Id</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Imagen</th>
+              <th scope="col">Categoria</th>
+              <th scope="col">Opciones</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of consulta">
+              <td>{{item.id}}</td>
+              <td>{{item.nombre}}</td>
+              <td>{{item.descripcion}}</td>
+              <td>{{item.precio}}</td>
+              <td > <img src= "{{item.imagen}}">></td>
+              <td>{{item.categoria}}</td>
+
+              <td>
+
+              </td>
+          </tr>
+      </tbody>
+      </table>
+    </div>
