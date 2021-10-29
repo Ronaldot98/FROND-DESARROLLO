@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+  <span>Metastport</span>
+  <span class="example-spacer"></span>
+
+  <div class="form-group">
+    <input type="text" class="form-control"  placeholder="search products">
+  </div>
+
+
+
+  <button mat-button routerLink="inicio">INICIO</button>
+
+  <button mat-button [matMenuTriggerFor]="Producto">PRODUCTOS</button>
+  <button mat-button [matMenuTriggerFor]="Producto">SERVICIOS</button>
+  <button mat-button [matMenuTriggerFor]="Producto">UBICACION</button>
+  <button mat-button [matMenuTriggerFor]="Producto">NOSOTROS</button>
+  <mat-menu #Producto="matMenu" yPosition="above">
+    <button mat-menu-item>Productos</button>
+    <button mat-menu-item>Categoria</button>
+  </mat-menu>
+
+  
+    
+
+  <button routerLink="cart" class="btn btn-primary">
+    <span class="material-icons">shopping_cart </span>
+    <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+    <div style="font-size: 10px;" class="badge bg-danger">{{ totalItem }}</div> 
+  </button> 
+
+
+  <span class="example-spacer"></span>
+
+  <button routerLink="/login" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+
+</mat-toolbar>
