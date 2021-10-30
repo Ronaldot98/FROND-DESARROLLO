@@ -27,11 +27,9 @@ export class CartService {
     console.log(this.cartItemList)
   }
 
-  getTotalPrice() : number{
-    let grandTotal = 0;
-    this.cartItemList.map((a:any)=>{
-      grandTotal += a.total;
-    })
+  getTotalPrice():number {
+    let grandTotal:number =0;
+    this.cartItemList.foreach((a: any) => grandTotal += a.total)
     return grandTotal;
   }
 

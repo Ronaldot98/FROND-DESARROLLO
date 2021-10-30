@@ -16,6 +16,7 @@ import { ClienteComponent } from './components/crud/cliente/cliente.component';
 const routes: Routes = [
   { path: '', redirectTo: 'menu', pathMatch: 'full' },
   { path: 'menu', component: MenuComponent,children:[
+
     {path: 'inicio', component: InicioComponent},
   ]},
   {path: 'cart', component: CartComponent},
