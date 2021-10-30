@@ -17,7 +17,15 @@
               <th scope="col">Nombre</th>
               <th scope="col">Descripcion</th>
               <th scope="col">Precio</th>
+<<<<<<< HEAD
               <th scope="col">Imagen</th>
+=======
+<<<<<<< HEAD
+              <!-- <th scope="col">Imagen</th> -->
+=======
+              <th scope="col">Imagen</th>
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
+>>>>>>> c1986206bc7633b5cb7f811b55d53eb4c9166175
               <th scope="col">Categoria</th>
               <th scope="col">Opciones</th>
           </tr>
@@ -28,7 +36,15 @@
               <td>{{item.nombre}}</td>
               <td>{{item.descripcion}}</td>
               <td>{{item.precio}}</td>
+<<<<<<< HEAD
               <td > <img src= "{{item.imagen}}">></td>
+=======
+<<<<<<< HEAD
+              <!-- <td > <img src= "{{item.imagen}}">></td> -->
+=======
+              <td > <img src= "{{item.imagen}}">></td>
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
+>>>>>>> c1986206bc7633b5cb7f811b55d53eb4c9166175
               <td>{{item.categoria}}</td>
 
               <td>
@@ -38,3 +54,74 @@
       </tbody>
       </table>
     </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    
+    
+
+
+
+
+
+
+  <!-- Modal -->
+    <div class="mat-elevation-z8">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" >Productos</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="formProducto">
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="text" formControlName="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Descripcion</label>
+                      <input type="text" formControlName="descripcion" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Precio</label>
+                      <input type="text" formControlName="precio" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Imagen</label>
+                      <input type="text" formControlName="imagen" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Categoria</label>
+                      <input type="text" formControlName="categoria" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button  type="button" (click)="addDireccion()" class="btn btn-primary">Add</button>
+
+              <!-- <button  type="button" *ngIf="updateBoton" (click)="UpdateDireccion()" class="btn btn-primary">Update</button> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
+>>>>>>> c1986206bc7633b5cb7f811b55d53eb4c9166175

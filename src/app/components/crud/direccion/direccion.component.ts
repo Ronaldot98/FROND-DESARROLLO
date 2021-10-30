@@ -30,6 +30,13 @@ export class DireccionComponent implements OnInit {
   constructor(private formulario:FormBuilder,private direService: DireccionService) { }
 
   ngOnInit(): void {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 681659f6004a85eab07669b989a7363909056d05
+>>>>>>> c1986206bc7633b5cb7f811b55d53eb4c9166175
     this.formDireccion=this.formulario.group({
       departamento: [''],
       municipio: [''],
