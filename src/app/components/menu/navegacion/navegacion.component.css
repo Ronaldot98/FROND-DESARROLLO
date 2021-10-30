@@ -1,0 +1,11 @@
+.form-control {
+  border-radius: 3px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
