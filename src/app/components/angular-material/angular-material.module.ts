@@ -10,10 +10,11 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 //importar para trabajar con los formularios
 import { FormsModule } from '@angular/forms';
 import {ReactiveFormsModule} from '@angular/forms';
-import {MatToolbarModule} from '@angular/material/toolbar';
+
 import {MatIconModule} from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({

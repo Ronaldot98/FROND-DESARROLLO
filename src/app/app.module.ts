@@ -22,6 +22,8 @@ import { CartComponent } from './components/cart/cart.component';
 
 import { EmpleadosComponent } from './components/crud/empleados/empleados.component';
 import { ProveedoresComponent } from './components/crud/proveedores/proveedores.component';
+import { UsuarioComponent } from './components/crud/usuario/usuario.component';
+import { ClienteComponent } from './components/crud/cliente/cliente.component';
 
 
 @NgModule({
@@ -41,7 +43,10 @@ import { ProveedoresComponent } from './components/crud/proveedores/proveedores.
     FilterPipe,
     CartComponent,
     ProveedoresComponent,
-    
+
+    UsuarioComponent,
+    ClienteComponent
+
 
 
   ],

@@ -10,6 +10,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { EmpleadosComponent } from './components/crud/empleados/empleados.component';
 import { ProveedoresComponent } from './components/crud/proveedores/proveedores.component';
 import { CartComponent } from './components/cart/cart.component';
+import { UsuarioComponent } from './components/crud/usuario/usuario.component';
+import { ClienteComponent } from './components/crud/cliente/cliente.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'menu', pathMatch: 'full' },
@@ -25,6 +27,10 @@ const routes: Routes = [
     {path: 'productos', component: ProductosComponent},
     {path: 'empleados', component: EmpleadosComponent},
     {path: 'proveedores', component: ProveedoresComponent},
+    {path: 'usuarios', component: UsuarioComponent},
+   {path: 'clientes', component: ClienteComponent},
+
+
   ]},
 
 ];
