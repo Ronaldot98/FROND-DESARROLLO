@@ -7,7 +7,8 @@ import { SucursalesComponent } from './components/crud/sucursales/sucursales.com
 import { LoginComponent } from './components/login/login.component';
 import { InicioComponent} from './components/menu/inicio/inicio.component';
 import { MenuComponent } from './components/menu/menu.component';
-
+import { EmpleadosComponent } from './components/crud/empleados/empleados.component';
+import { UsuarioComponent } from './components/crud/usuario/usuario.component';
 const routes: Routes = [
   { path: '', redirectTo: 'menu', pathMatch: 'full' },
   { path: 'menu', component: MenuComponent,children:[
@@ -19,6 +20,9 @@ const routes: Routes = [
     {path: 'direccion', component: DireccionComponent},
     {path: 'sucursales', component: SucursalesComponent},
     {path: 'productos', component: ProductosComponent},
+    {path: 'empleados', component: EmpleadosComponent},
+    {path: 'usuarios', component: UsuarioComponent},
+
   ]},
 
 ];

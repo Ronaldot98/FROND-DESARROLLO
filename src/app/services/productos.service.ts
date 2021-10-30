@@ -4,11 +4,7 @@ import { Observable } from 'rxjs';
 import {Productos} from '../models/productos.model';
 
 
-<<<<<<< HEAD
 const baseUrlproductos= 'https://desarroll-web.herokuapp.com/metasports.com/producto';
-=======
-const baseUrlproductos= 'http://localhost:3000/metasports.com/producto';
->>>>>>> 681659f6004a85eab07669b989a7363909056d05
 
 @Injectable({
   providedIn: 'root'

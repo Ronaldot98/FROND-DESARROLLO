@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
   ingresar(){
 
 
-    this.http.get<any>('http://localhost:3000/metasports.com/user/').subscribe(res => {
+    this.http.get<any>('https://desarroll-web.herokuapp.com/metasports.com/user').subscribe(res => {
 
     const user = res.find((validacion: any)=>{
       return validacion.usuario == this.formUser.value.user && validacion.password == this.formUser.value.password;
