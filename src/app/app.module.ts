@@ -22,10 +22,7 @@ import { CartComponent } from './components/cart/cart.component';
 
 import { EmpleadosComponent } from './components/crud/empleados/empleados.component';
 import { UsuarioComponent } from './components/crud/usuario/usuario.component';
-<<<<<<< HEAD
 import { ClienteComponent } from './components/crud/cliente/cliente.component';
-=======
->>>>>>> e13f292acc0253f9c725455c6d5a8ca4f3f3bc8b
 
 
 @NgModule({
@@ -45,12 +42,8 @@ import { ClienteComponent } from './components/crud/cliente/cliente.component';
     FilterPipe,
     CartComponent,
     UsuarioComponent,
-<<<<<<< HEAD
     ClienteComponent
 
-=======
-    
->>>>>>> e13f292acc0253f9c725455c6d5a8ca4f3f3bc8b
 
 
   ],
